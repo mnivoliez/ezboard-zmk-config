@@ -4,15 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: ezboard-shield-module
+    - name: ezboard-remote
       url-base: git@github.com:mnivoliez
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: ezboard-shield
-      remote: ezboard-shield-module
+    - name: ezboard-shield-module
+      remote: ezboard-remote
       revision: main
   self:
     path: config
