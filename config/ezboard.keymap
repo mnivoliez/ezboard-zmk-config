@@ -48,10 +48,10 @@
 
         nav_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none     &none         &none           &none      &none
-&none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none
-&none  &none  &none  &none  &none  &none  &none  &none     &none         &none           &none      &none
-                     &none  &none  &to 0  &to 3  &none     &none
+&none  &none  &none  &none  &none  &none  &none  &none      &kp UP_ARROW    &none            &kp PG_UP      &none
+&none  &none  &none  &none  &none  &none  &none  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none
+&none  &none  &none  &none  &none  &none  &none  &none      &none           &none            &none          &none
+                     &none  &none  &to 0  &to 3  &kp ENTER  &none
             >;
         };
 
