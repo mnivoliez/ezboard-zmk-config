@@ -63,7 +63,7 @@
             //                     |     |     |     |   |     |     |     |
 
             bindings = <
-&bt BT_CLR  &kp F1  &kp F2   &kp F3     &kp F4   &none  &kp C_PLAY  &kp C_PREVIOUS     &kp C_NEXT       &kp PRINTSCREEN  &none  &none
+&bt BT_CLR  &kp F1  &kp F2   &kp F3     &kp F4   &none  &kp C_PLAY  &kp C_PREVIOUS     &kp C_NEXT       &kp PRINTSCREEN  &none  &sys_reset
 &bt BT_PRV  &kp F5  &kp F6   &kp F7     &kp F8   &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none            &none  &none
 &bt BT_NXT  &kp F9  &kp F10  &kp F11    &kp F12  &none  &none       &none              &none            &none            &none  &none
                              &kp LCTRL  &none    &to 0  &to 4       &none              &kp RIGHT_ALT
