@@ -30,7 +30,7 @@
                             &kp LSHIFT  &kp SPACE  &to 2  &to 1  &kp RETURN  &kp RALT
             >;
 
-            label = "Default";
+            display-name = "Default";
         };
 
         sym_layer {
@@ -47,7 +47,7 @@
                                               &kp LEFT_SHIFT   &kp SPACE              &to 0              &to 3         &kp RETURN  &none
             >;
 
-            label = "SYM";
+            display-name = "SYM";
         };
 
         nav_layer {
@@ -73,7 +73,7 @@
                              &kp LCTRL  &none    &to 0  &to 4       &none              &kp RIGHT_ALT
             >;
 
-            label = "FUN";
+            display-name = "FUN";
         };
 
         gaming_layer {
@@ -84,7 +84,7 @@
                               &kp LEFT_ALT  &kp SPACE  &mo 5  &to 0  &none  &none
             >;
 
-            label = "GAMING";
+            display-name = "GAMING";
         };
 
         gaming_num {
@@ -95,7 +95,7 @@
                       &none   &none   &none   &none  &none  &none
             >;
 
-            label = "GAMING NUM";
+            display-name = "GAMING NUM";
         };
     };
 };
