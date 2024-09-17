@@ -72,10 +72,19 @@
 
         gaming_layer {
             bindings = <
-&kp TAB    &kp N2  &kp Q  &kp W           &kp E      &kp R   &kp Y  &kp U  &kp I      &kp O    &kp P     &kp ESC
-&kp LCTRL  &kp N3  &kp A  &kp S           &kp D      &kp F   &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SEMI
-&kp N5     &kp N4  &kp Z  &kp X           &kp C      &kp V   &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
-                          &kp LEFT_SHIFT  &kp SPACE  &kp N1  &to 0  &none  &none
+&none  &kp TAB         &kp Q  &kp W         &kp E      &kp R  &kp Y  &kp U  &kp I      &kp O    &kp P     &kp ESC
+&none  &kp LEFT_SHIFT  &kp A  &kp S         &kp D      &kp F  &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SEMI
+&none  &kp LCTRL       &kp Z  &kp X         &kp C      &kp V  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+                              &kp LEFT_ALT  &kp SPACE  &mo 5  &to 0  &none  &none
+            >;
+        };
+
+        gaming_num {
+            bindings = <
+&none  &none  &kp N1  &kp N2  &kp N3  &none   &none  &none  &none  &none  &none  &none
+&none  &none  &kp N4  &kp N5  &kp N6  &none   &none  &none  &none  &none  &none  &none
+&none  &none  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &none  &none  &none  &none
+                      &none   &none   &none   &none  &none  &none
             >;
         };
     };
