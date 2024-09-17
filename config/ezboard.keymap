@@ -29,6 +29,8 @@
 &kp LEFT_WIN  &kp Z  &kp X  &kp C       &kp D      &kp V  &kp K  &kp H       &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
                             &kp LSHIFT  &kp SPACE  &to 2  &to 1  &kp RETURN  &kp RALT
             >;
+
+            label = "Default";
         };
 
         sym_layer {
@@ -44,6 +46,8 @@
 &kp LEFT_WIN  &kp CARET        &kp AMPERSAND  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp N0        &kp N1      &kp N2  &kp N3  &kp SLASH  &kp DEL
                                               &kp LEFT_SHIFT   &kp SPACE              &to 0              &to 3         &kp RETURN  &none
             >;
+
+            label = "SYM";
         };
 
         nav_layer {
@@ -68,6 +72,8 @@
 &bt BT_NXT  &kp F9  &kp F10  &kp F11    &kp F12  &none  &none       &none              &none            &none            &none  &none
                              &kp LCTRL  &none    &to 0  &to 4       &none              &kp RIGHT_ALT
             >;
+
+            label = "FUN";
         };
 
         gaming_layer {
@@ -77,6 +83,8 @@
 &none  &kp LCTRL       &kp Z  &kp X         &kp C      &kp V  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
                               &kp LEFT_ALT  &kp SPACE  &mo 5  &to 0  &none  &none
             >;
+
+            label = "GAMING";
         };
 
         gaming_num {
@@ -86,6 +94,8 @@
 &none  &none  &kp N7  &kp N8  &kp N9  &kp N0  &none  &none  &none  &none  &none  &none
                       &none   &none   &none   &none  &none  &none
             >;
+
+            label = "GAMING NUM";
         };
     };
 };
